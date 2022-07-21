@@ -60,3 +60,36 @@ Happy modeling!
 21:39:04.470231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0bb0>]}
 21:39:04.472384 [info ] [MainThread]: A project called dbt already exists here.
 21:39:04.473305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f0be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c099f04c0>]}
+
+
+============================== 2022-07-21 21:48:45.276285 | 9cfd4717-c25e-4490-81ab-92e713a3f6cc ==============================
+21:48:45.276301 [info ] [MainThread]: Running with dbt=1.1.1
+21:48:45.290745 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'data-warehouse-dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+21:48:45.291117 [debug] [MainThread]: Tracking: tracking
+21:48:45.374667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dbe0>]}
+21:49:08.903387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f060224d2e0>]}
+
+
+============================== 2022-07-21 21:49:46.705485 | c935666e-0c4d-4636-a3f8-c3470e7ede05 ==============================
+21:49:46.705500 [info ] [MainThread]: Running with dbt=1.1.1
+21:49:46.706131 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/abel-ubuntu/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'data_warehouse', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+21:49:46.706439 [debug] [MainThread]: Tracking: tracking
+21:49:46.711212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b11bb0>]}
+21:49:46.713046 [debug] [MainThread]: Starter project path: /home/abel-ubuntu/workspace/data-warehouse-dbt/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+21:49:59.768288 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+21:49:59.769087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4538404130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f45384043a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4534b114c0>]}
