@@ -1,0 +1,7 @@
+!includedir /etc/postgre/postgre.d/
+!includedir /etc/postgre/postgre.conf.d/
+[mysqld]
+pid-file        = /var/run/postgre/postgre.pid
+socket          = /var/run/postgre/postgre.sock
+datadir         = /var/lib/postgre
+secure-file-priv= ""
