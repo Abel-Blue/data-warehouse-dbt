@@ -1,0 +1,1 @@
+select Name, count(Name), avg(flow_median) from merged_station_summary group by Name;
